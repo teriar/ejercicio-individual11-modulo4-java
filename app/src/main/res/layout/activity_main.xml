@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guideline2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_begin="117dp" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guideline3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_begin="275dp" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guideline4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintGuide_begin="291dp" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guideline5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintGuide_begin="519dp" />
+
+    <Button
+        android:id="@+id/btnAvion"
+        android:layout_width="199dp"
+        android:layout_height="65dp"
+        android:backgroundTint="#815ae3"
+        android:text="Turn of flight mode"
+        android:textSize="18sp"
+        app:icon ="@drawable/avion2"
+        app:layout_constraintBottom_toTopOf="@+id/guideline2"
+        app:layout_constraintEnd_toStartOf="@+id/guideline5"
+        app:layout_constraintStart_toStartOf="@+id/guideline4"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/ActualizarBtn"
+        android:layout_width="199dp"
+        android:layout_height="65dp"
+        android:text="Updating Profile"
+        android:backgroundTint="#D9525E"
+        app:icon ="@drawable/actualizar"
+        app:layout_constraintBottom_toTopOf="@+id/guideline2"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="@+id/guideline5"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/buttonPictureGallery"
+        android:layout_width="199dp"
+        android:layout_height="65dp"
+        android:text="Pictured saved to gallery"
+        android:backgroundTint="#C9C9C9"
+        app:layout_constraintBottom_toTopOf="@+id/guideline3"
+        app:layout_constraintEnd_toStartOf="@+id/guideline5"
+        app:layout_constraintStart_toStartOf="@+id/guideline4"
+        app:layout_constraintTop_toTopOf="@+id/guideline2" />
+
+    <Button
+        android:id="@+id/buttonUnlockedLevel5"
+        android:layout_width="199dp"
+        android:layout_height="65dp"
+        android:layout_marginEnd="4dp"
+        android:text="Unlocked level 5"
+        android:backgroundTint="#484D50"
+        app:layout_constraintBottom_toTopOf="@+id/guideline3"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/guideline2"
+        app:layout_constraintVertical_bias="0.494" />
+
+    <Button
+        android:id="@+id/buttonLevel4"
+        android:layout_width="199dp"
+        android:layout_height="65dp"
+        android:text="Level 4 Completed"
+        android:backgroundTint="#5F94D9"
+
+        android:drawableRight="@drawable/estrella"
+        android:drawableLeft="@drawable/estrella"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/guideline5"
+        app:layout_constraintHorizontal_bias="0.517"
+        app:layout_constraintStart_toStartOf="@+id/guideline4"
+        app:layout_constraintTop_toTopOf="@+id/guideline3"
+        app:layout_constraintVertical_bias="0.535" />
+
+    <Button
+        android:id="@+id/buttonMusicPaused"
+        android:layout_width="199dp"
+        android:layout_height="65dp"
+        android:layout_marginTop="4dp"
+        android:text="Music Paused"
+        android:backgroundTint="#49A660 "
+        app:icon ="@drawable/pause"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="@+id/guideline5"
+        app:layout_constraintTop_toTopOf="@+id/guideline3" />
+</androidx.constraintlayout.widget.ConstraintLayout>
