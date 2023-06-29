@@ -63,24 +63,28 @@
         android:id="@+id/buttonPictureGallery"
         android:layout_width="199dp"
         android:layout_height="65dp"
-        android:text="Pictured saved to gallery"
         android:backgroundTint="#C9C9C9"
+        android:text="Pictured saved to gallery"
         app:layout_constraintBottom_toTopOf="@+id/guideline3"
         app:layout_constraintEnd_toStartOf="@+id/guideline5"
         app:layout_constraintStart_toStartOf="@+id/guideline4"
-        app:layout_constraintTop_toTopOf="@+id/guideline2" />
+        app:layout_constraintTop_toTopOf="@+id/guideline2"
+        app:strokeColor="#959090"
+        app:strokeWidth="2dp" />
 
     <Button
         android:id="@+id/buttonUnlockedLevel5"
         android:layout_width="199dp"
         android:layout_height="65dp"
         android:layout_marginEnd="4dp"
-        android:text="Unlocked level 5"
         android:backgroundTint="#484D50"
+        android:text="Unlocked level 5"
         app:layout_constraintBottom_toTopOf="@+id/guideline3"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintTop_toTopOf="@+id/guideline2"
-        app:layout_constraintVertical_bias="0.494" />
+        app:layout_constraintVertical_bias="0.494"
+        app:strokeColor="#2693CA"
+        app:strokeWidth="2dp" />
 
     <Button
         android:id="@+id/buttonLevel4"
