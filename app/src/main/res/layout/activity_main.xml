@@ -90,30 +90,32 @@
         android:id="@+id/buttonLevel4"
         android:layout_width="199dp"
         android:layout_height="65dp"
-        android:text="Level 4 Completed"
         android:backgroundTint="#5F94D9"
+        android:drawableLeft="@drawable/estrella"
 
         android:drawableRight="@drawable/estrella"
-        android:drawableLeft="@drawable/estrella"
+        android:text="Level 4 Completed"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toStartOf="@+id/guideline5"
         app:layout_constraintHorizontal_bias="0.517"
         app:layout_constraintStart_toStartOf="@+id/guideline4"
         app:layout_constraintTop_toTopOf="@+id/guideline3"
-        app:layout_constraintVertical_bias="0.535" />
+        app:layout_constraintVertical_bias="0.535"
+        tools:cornerRadius="0dp" />
 
     <Button
         android:id="@+id/buttonMusicPaused"
         android:layout_width="199dp"
         android:layout_height="65dp"
         android:layout_marginTop="4dp"
-        android:text="Music Paused"
         android:backgroundTint="#49A660 "
-        app:icon ="@drawable/pause"
+        android:text="Music Paused"
+        app:icon="@drawable/pause"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="@+id/guideline5"
-        app:layout_constraintTop_toTopOf="@+id/guideline3" />
+        app:layout_constraintTop_toTopOf="@+id/guideline3"
+        tools:cornerRadius="0dp" />
 
     <ImageView
         android:id="@+id/imageView"
